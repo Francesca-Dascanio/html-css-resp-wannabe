@@ -127,6 +127,13 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* Bonus: tra 768px e 1160px */
+@media screen and (min-width: 769px) and (max-width: 1159px) {
+    .container {
+        width: 100%;
+    }
+}
+
 
 
 /* Responsive tablet */
@@ -135,6 +142,7 @@ img {
     width: 100%;
    }
 }
+
 
 /* Responsive mobile */
 /* lessons */
