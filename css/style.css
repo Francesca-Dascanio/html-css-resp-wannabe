@@ -128,8 +128,60 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+
+/* Responsive tablet */
 @media screen and (max-width: 768px) {
    .container {
     width: 100%;
    }
+}
+
+/* Responsive mobile */
+/* lessons */
+@media screen and (max-width: 480px) {
+    .steps {
+        margin: 3rem 0 0em 0;
+        padding: 3rem 0 0em 0;
+    }
+    
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+        margin-bottom: 50px; 
+    }   
+}
+
+/* steps */
+@media screen and (max-width: 480px) {
+    .steps .col {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+/* why us */
+@media screen and (max-width: 480px) {
+    .why-us {
+        margin-bottom: 0rem;
+    }
+
+    .why-us h2 {
+        margin-top: 50px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 50px;
+    } 
+
+    .why-us .col-right {
+        width: 100%;
+    }
 }
